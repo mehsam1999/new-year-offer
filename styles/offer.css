@@ -160,6 +160,7 @@ body{
 }
 
 /* midnight party section ends here */
+/* event section starts here */
 
 .event-container{
     max-width: 1320px;
@@ -169,3 +170,34 @@ body{
     background-image: linear-gradient(rgba(255, 0, 0, 0.1),
     rgba(255, 0, 0, 0));
 }
+
+.event-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.event-content h3{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.span-content{
+    color: red;
+}
+.btn-primary{
+    width: 167px;
+    height: 56px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 44px;
+}
+/* event section ends here */

@@ -16,12 +16,11 @@ body{
     min-height: 600px;
     margin: 0 auto;
     margin-top: 50px;
-    background-image: url(../images/Banner\ Image.png);
+    background-image: linear-gradient(rgb(7, 2, 17),
+    rgba(7, 2, 17, 0)), url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: overlay;
     border-radius: 16px;
     margin-bottom: 120px;
 }
@@ -36,6 +35,7 @@ body{
 }
 
 .banner-content p{
+    color: white ;
     font-size: 32px;
     font-weight: 400;
     margin-bottom: 16px;
@@ -49,7 +49,7 @@ body{
 
 /* banner-content ends here */
 
-/* 65% off section start here */
+/* 65% off section starts here */
 .new-year-offer-container{
     max-width: 802.9px;
     min-height: 806px;
@@ -65,6 +65,7 @@ body{
 }
 
 .new-year-content h2 {
+    font-family: Inter;
     font-size: 88px;
     font-weight: 700;
     margin-bottom: 48px;
@@ -81,4 +82,90 @@ body{
     font-weight: 700;
     text-align: center;
     margin-bottom: 48px;
+}
+
+.new-year-image{
+    width: 802.9px;
+    height: 651px;
+}
+/* 65% off section ends here */
+/* midnight party section starts here */
+.midnight-party-container{
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    background-image:linear-gradient(rgb(7, 2, 17),
+    rgba(7, 2, 17, 0)),url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    text-align: left;
+    border-radius: 16px;
+    margin-bottom: 120px;
+    
+}
+
+.left-side-midnight-party-content{
+    width: 60%;
+    height: 600px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 126px;
+}
+
+.left-side-midnight-party-content h2{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+    letter-spacing: 11%;
+}
+
+.left-side-midnight-party-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    
+}
+
+.left-side-midnight-party-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+#midnight-button{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 32px;
+}
+
+.right-side-midnight-party-content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+/* midnight party section ends here */
+
+.event-container{
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0));
 }
